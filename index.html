@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rights Manager</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://04d59cb0-af4e-4505-a1c7-3e0dd2bb6472-00-1184f2o24lwht.sisko.replit.dev/photo.avif'); /* Replace 'background.jpg' with the path to your background image */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-family: 'Arial', sans-serif; /* Change the font family as needed */
+        }
+
+        #logo {
+            width: 150px; /* Adjust the size of the Facebook logo as needed */
+            margin-bottom: 10px;
+        }
+
+        #text {
+            font-size: 50px; /* Adjust the font size as needed */
+            font-weight: normal;
+            text-align: center;
+            margin-bottom: 20px; /* Add more space between text and button */
+        }
+
+        #applyNowButton {
+            background-color: #1877f2; /* Facebook blue color */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+  <body>
+  <img id="logo" src="https://04d59cb0-af4e-4505-a1c7-3e0dd2bb6472-00-1184f2o24lwht.sisko.replit.dev/facebook-logo.png" alt="Facebook Logo"> <!-- Replace 'facebook-logo.png' with the path to your Facebook logo -->
+  <div id="text">Rights Manager</div>
+  <button id="applyNowButton" onclick="redirectToApplyPage()">Apply Now</button>
+
+  <script>
+      function redirectToApplyPage() {
+          // Replace 'apply-page.html' with the actual URL of the page you want to redirect to
+          window.location.href = 'apply-page.html';
+      }
+  </script>
+</body>
+</html>
